@@ -1,23 +1,5 @@
-.navbar{
-    background-color: #005186;
-    font-family: SansSerif;
-    font-size: 13pt;
-}
-
-.navbar-brand{
-    color:white
-}
-
-.nav-link:hover{
-    color: #65ACD8;
-}
-
-.nav-link{
-    color:white;
-}
-.navbar-brand{
-    font-size: 15pt;
-    font-family: Freestyle Script;
+.color{
+    color: black
 }
 
 .jumbotron{
@@ -35,12 +17,39 @@
     background-size: 18%;
 }
 
+.imagemMenininha:hover{
+    background-image: url(https://i.imgur.com/noDm370.png);
+    background-position: 95%;
+    background-repeat: no-repeat;
+    background-size: 18%;
+}
+
 .jumbotron-imagem:hover{
     
     background-image: url(https://i.imgur.com/noDm370.png);
     background-position: 90%;
     background-repeat: no-repeat;
     background-size: 340px;
+}
+
+
+.button-Carousel-Cards{
+    /*BOTÃO DO CARROSSEL*/
+}
+
+.botaoCardsPrev{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    position: absolute;
+}
+
+.botaoCardsNext{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    top: 50%;
 }
 
 .btnVermais{
@@ -75,6 +84,7 @@
 
 .oQueFazemos{
     color: #005186;
+    font-family: Century Gothic;
 }
 
 .texto-esquerda{
@@ -88,4 +98,15 @@
 
 .texto-direita{
     text-align: justify;
+}
+
+.imagemParceiros{
+    background-image: url(https://i.imgur.com/cFyuOd5.jpg);
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.tamanhoCard{
+    width: 250px;
 }

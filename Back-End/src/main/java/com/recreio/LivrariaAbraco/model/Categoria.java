@@ -41,17 +41,15 @@ public class Categoria {
 	
 	@OneToMany(mappedBy = "categoria", cascade = CascadeType.ALL)
 	@JsonIgnoreProperties("categoria")
-	private List<Produto> produto; 
-
-
-
+	private List<Produto> produto;
+	
 	//Getters and Setters:
 	public long getId() {
 		return id;
 	}
 
-	public void setId(long idCategoria) {
-		this.id = idCategoria;
+	public void setId(long id) {
+		this.id = id;
 	}
 
 	public String getGenero() {
@@ -84,8 +82,7 @@ public class Categoria {
 
 	public void setProduto(List<Produto> produto) {
 		this.produto = produto;
-	}
-	
+	} 
 
 }
 
