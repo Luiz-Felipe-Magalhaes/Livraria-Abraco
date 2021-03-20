@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.recreio.LivrariaAbraco.Repository.ProdutoRepository;
 import com.recreio.LivrariaAbraco.model.Produto;
 
@@ -45,6 +44,10 @@ public class ProdutoController
 		return ResponseEntity.ok(repositorioProduto.findAllByNomeContainingIgnoreCase(nome));
 	}
 	
+	@GetMapping("/categoria/{genero}")
+	public ResponseEntity<List<Produto>> getByGenero (@PathVariable String genero){
+		return ResponseEntity.ok(repositorioProduto.findProdutoByCategoriaGenero(genero));
+	}
 	
 	@PostMapping
 	public ResponseEntity<Produto> post (@RequestBody Produto produto) {

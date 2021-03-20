@@ -1,0 +1,136 @@
+footer {
+    display: none;
+}
+
+.jumbotron{
+    background-image: url(https://i.imgur.com/hxa9TMz.png);
+    background-repeat: round;
+    border-radius: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+           
+}
+
+ .jumbotron:hover {
+    background-image: url(https://i.imgur.com/5wwZPhe.png);       
+}
+
+.hrDegrade{
+    height: 2px;
+    width: 70%;
+    background: -webkit-gradient(linear, 5 5, 100% 0%, from(white), to(white), color-stop(50%, #F2B035));
+}
+
+.carousel-produtos { 
+    margin: 0;
+    padding: 0;
+    width: 70%; 
+}
+
+.control-produtos-prev {
+position: relative;
+left: 35%;    
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23005186' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.control-produtos-next {
+position: relative;
+right: 40%;
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23005186' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");  
+
+}
+
+.card{
+    width: 250px;
+    height: 450px;
+}
+
+.card-img-top {
+    width: 250px;
+    height: 350px;
+}
+
+.svg-wrapper {
+height: 60px;
+margin: 0 auto;
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+width: 320px;
+}
+
+.shape {
+fill: transparent;
+stroke-dasharray: 140 540;
+stroke-dashoffset: -474;
+stroke-width: 8px;
+stroke: #005186;
+}
+
+.text {
+color: #3D3D3D;
+font-size: 22px;
+font-weight: bold;
+letter-spacing: 8px;
+line-height: 32px;
+position: relative;
+top: -48px;
+}
+
+@keyframes draw {
+0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+}
+100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+}
+}
+
+.svg-wrapper:hover .shape {
+-webkit-animation: 1s draw linear forwards;
+animation: 0.5s draw linear forwards;
+}
+
+
+
+.h2OqueFazemos{
+    color: #65ACD8;
+    font-family: Century Gothic;
+}
+
+.objetivos {
+    text-align: justify;
+}
+
+.titulos{
+    color: #005186;
+    font: bold;
+}
+
+.texto-esquerda{
+    text-align: left;
+    font-size: 120%;
+}
+
+.margem{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.texto-direita{
+    text-align: justify;
+}
+
+
+.textoObjetivos{
+    font-size: 105%;
+}
+
+.textosParceiros{
+    font-size: 105%;
+}

@@ -1,0 +1,203 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.ImagemSobrenos{
+  width: 32vw;
+  height: auto;
+  align-items: center;
+  display: flex;
+  margin-top: 30px;
+}
+
+#alinhaNomeio {
+  
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+  }
+  #alinhatd {
+  
+  background: #fff;
+  }
+  body {
+  margin: 0px;
+  }
+
+  #afastaOsCards
+  {
+    float: left;
+    width: 100px; height: 200px;
+    margin: 10px 20px;
+  }
+
+  #afastaTudo
+  {
+    
+    margin: 5% 0;
+  }
+
+p{
+  font-size: 18px;
+}
+
+
+.container
+{
+  color:#3d3d3d ;
+  margin: 5% 0;
+}
+#corDosCards
+{
+  background-color: #65ACD8;
+}
+
+#corDosCards:hover .text-monospace{
+  color: #fef25b;
+}
+
+.display {
+  display: none;
+}
+.img-titulo 
+{
+  align-self: center;
+}
+
+
+.texto-m{
+  margin-top: 0px;
+}
+
+.texto-resp {
+  width: 2vw;
+}
+
+div.img-titulo {
+  align-self: center;
+}
+
+.img-rs > img {
+  height: auto;
+  width: 100%;
+  max-height: 500px;
+}
+
+.container-fluid{
+  padding: 0px;
+}
+
+@media (min-width: 576px) {
+  
+  p.texto-resp {
+    width: 14px;
+    margin: 0;
+  }
+  .ajustaImg {
+    padding: 0;
+  }
+}
+
+
+@media (min-width: 768px) {
+ 
+  .texto-resp {
+    width: 2vw;
+  }
+  .ajuste {
+    padding: 0;
+  }
+  .display {
+    display: flex;
+  }
+}
+
+img.rounded-circle {
+  max-width: 180px;
+  max-height: 180px;
+  min-width: 160px;
+  min-height: auto;
+}
+
+.trocaCordoNome {
+  font-size: 5vw;
+  transition: color 0.8s;
+  
+}
+
+ 
+h1{
+  font-size: 6vw;
+  counter-reset: #555;
+  font-weight: bold;
+}
+.display {
+  display: flex;
+}
+
+h3{
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+
+.card-body {
+  align-items: center;
+  height: 500px;
+  
+  }
+
+.card-body > p {
+  word-wrap: break-word;
+}
+
+#cresceCard>:hover
+{
+  color: #fef25b;
+}
+.imgem:hover
+{
+ border-color: none;
+-webkit-box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.2);
+
+}
+
+.card {
+  box-shadow: 0 14px 14px 0 rgba(0, 0, 0, 0.2);
+  max-width: 270px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  
+  opacity: 0.9;
+  
+}
